@@ -7,4 +7,6 @@ Change the line setwd("C:\\Users....") to the directory that your copy of the sc
 
 Run the script and two files should be written to the working directory, tidyData.txt and tidyDataAverage.txt.
 
-The former is the first tidy dataset and the latter is the average the dataset.
+The former is the first tidy dataset, which contains the information of each type of reading for each subject, for each requested variable.
+
+The latter is the average the previous dataset for each reading, for each activity, for each subject.
