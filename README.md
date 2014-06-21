@@ -10,3 +10,5 @@ Run the script and two files should be written to the working directory, tidyDat
 The former is the first tidy dataset, which contains the information of each type of reading for each subject, for each requested variable.
 
 The latter is the average the previous dataset for each reading, for each activity, for each subject.
+
+To see how the code works, a codebook has been included and the code has been throughly commented.
