@@ -23,8 +23,8 @@ dataTrainDirectory <- "./UCI HAR Dataset/train/"
 # ---------------------------------------------------------
 # Read in the metadata
 # ---------------------------------------------------------
-activities <- paste0(dataBaseDirectory"activity_labels.txt"), header=FALSE, stringsAsFactors=FALSE)
-features   <- paste0(dataBaseDirectory"features.txt"), header=FALSE, stringsAsFactors=FALSE)
+activities <- read.table(paste0(dataBaseDirectory, "activity_labels.txt"), header=FALSE, stringsAsFactors=FALSE)
+features   <- read.table(paste0(dataBaseDirectory, "features.txt"), header=FALSE, stringsAsFactors=FALSE)
 
 # ---------------------------------------------------------
 # Read in the Test Data (all related data) and prepare it
